@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgimg{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/cover.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+.c_card{
+    margin-top: 30%;
+    border: 2px solid #ededed;
+    background-color: #f2f3f5;
+    padding: 2.5rem 1.875rem;
+    border-radius: 50px;
+    font-family: 'Bree Serif', serif;
+}
+.price{
+    font-size: 1.125rem;
+}
+.desc{
+    margin-top: 35%;
+}
+.c_title{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Trocchi', serif;
+}
+.c_para{
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) );
+    color: red!important;
+    /* text-align: center; */
+}
+.fab{
+    font-size: 20px;
+}
+.fa-facebook{
+    color: #355998;
+}
+.fa-instagram{
+    color: #DD2A7B;
+}
